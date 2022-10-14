@@ -13,6 +13,8 @@ main{
     width: 1493px;
     background-color: #000000;
     position: relative;
+    top: 100px;
+    left: 100px;
     z-index: -1;
 }
 header{
