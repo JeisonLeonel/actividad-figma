@@ -185,10 +185,9 @@ img{
     width: 563px;
     border-radius: 0px;
     background: linear-gradient(270deg, rgba(70, 70, 70, 0.5) 0%, #000000 52.4%, #000000 100%);
-    background: linear-gradient(270deg, rgba(70, 70, 70, 0.5) 0%, #000000 52.4%, #000000 100%);
     filter: blur(16.3868px);
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    position: relative;
-    bottom: 65em;
-    left: 750px;
+    position: absolute;
+    bottom: 20px;
+    left: 870px;
 }
