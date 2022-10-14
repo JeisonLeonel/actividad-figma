@@ -1,0 +1,192 @@
+html{
+    height: 987px;
+    width: 1493px;
+}
+body {
+    font-family: 'Barlow', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    height: 987px;
+    width: 1493px;
+    background-color: #000000;
+    position: relative;
+    z-index: -1;
+}
+header{
+    background-color: #BDC3C7;
+    width: 100px;
+    height:  987px;
+}
+header img{
+    position: absolute;
+    left: 1.74%;
+    right: 93.57%;
+    top: 6.89%;
+    bottom: 91.08%;
+    height: 20px;
+    width: 70px;
+    left: 26px;
+    top: 68px;
+    border-radius: 0px;
+}
+header #vertical{
+    display: flex;
+    position: relative;
+    height: px;
+    top: 340px;
+    transform: rotate(90deg);
+    letter-spacing: 1.25em;
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+}
+#vertical #text{
+    visibility: hidden;
+}
+section{
+    color: white;
+    width: 1493px;
+    height: auto;
+}
+.inicio{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 659px;
+    left: 400px;
+    border-radius: nullpx;
+    top:40px;
+}
+.inicio span{
+margin-right: 80px;
+cursor: pointer;
+}
+.text h1{
+    font-size: 166px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 199px;
+    letter-spacing: 0em;
+    position: relative;
+    width: 727px;
+    height: 168px;
+    left: 90px;
+    top: 80px;
+}
+.text #cursiva{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.15em;
+    position: relative;
+    left: 90px;
+    color: #CCC8C8;
+    bottom: 40px;
+}
+.text #precio{
+    font-family: Barlow;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+}
+.text p{
+    border-radius: nullpx;
+    height: 76px;
+    width: 542px;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+}
+.text button {
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    background: #A1A2A3;
+    text-align: center;
+    position: relative;
+    left: 90px;
+    bottom: 20px;
+}
+img{
+    position: relative;
+    left: 600px;
+    bottom: 510px;
+}
+#eclipse1{
+    background: radial-gradient(78.19% 78.19% at 10.4% 32.21%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, rgba(125, 125, 125, 0.15), rgba(125, 125, 125, 0.15));
+    height: 146.1526336669922px;
+    width: 146.1526336669922px;
+    border-radius: 50%;
+    background: rgba(125, 125, 125, 0.15);
+    backdrop-filter: blur(15.501px);
+    border: 1.06px solid;
+    border-image-source: radial-gradient(78.19% 78.19% at 10.4% 32.21%, #57595B 0%, rgba(0, 0, 0, 0) 100%);
+    position: relative;
+    bottom: 57em;
+    left: 1200px;
+}
+#eclipse2{
+    height: 146.1526336669922px;
+    width: 146.1526336669922px;
+    border-radius: 50%;
+    background: radial-gradient(75.15% 75.15% at 31.21% 0%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, rgba(125, 125, 125, 0.15), rgba(125, 125, 125, 0.15));
+    border: 1.06px solid;
+    border-image-source: radial-gradient(75.15% 75.15% at 31.21% 0%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: rgba(125, 125, 125, 0.15);
+    backdrop-filter: blur(15.501px);
+    position: relative;
+    bottom: 54em;
+    left: 930px;
+}
+#eclipse3{
+    height: 262.18896484375px;
+    width: 278.13287353515625px;
+    border-radius: 50%;
+    background: radial-gradient(40.61% 43.79% at 85.51% 81.59%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, rgba(125, 125, 125, 0.15), rgba(125, 125, 125, 0.15));
+    border: 1.06px solid;
+    border-image-source: radial-gradient(40.61% 43.79% at 85.51% 81.59%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: rgba(125, 125, 125, 0.15);
+    backdrop-filter: blur(15.501px);
+    position: relative;
+    bottom: 85em;
+    left: 800px;
+    z-index: -1;
+}
+#shadow{
+    height: 51px;
+    width: 563px;
+    border-radius: 0px;
+    background: linear-gradient(270deg, rgba(70, 70, 70, 0.5) 0%, #000000 52.4%, #000000 100%);
+    background: linear-gradient(270deg, rgba(70, 70, 70, 0.5) 0%, #000000 52.4%, #000000 100%);
+    filter: blur(16.3868px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: relative;
+    bottom: 65em;
+    left: 750px;
+}
